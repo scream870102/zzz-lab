@@ -68,6 +68,7 @@
 | `{{1186}}` | <img src="../assets/images/synced/67678bec828217041999fab7ee233c3f1d2deec97032464a0fb9404e67b750bc.png" width="32" height="32" alt=""> | 洛克茜 | 角色 | 1186 |  |
 | `{{1202}}` | <img src="../assets/images/synced/8f2f5e6b033478e874a2ee44ac2b849a1855886f7778ed01aa21eb7f786059bc.png" width="32" height="32" alt=""> | 賽維裡安·洛威爾 | 角色 | 1202 |  |
 | `{{1201}}` | <img src="../assets/images/synced/bd523ad03749774e496cc8534dc505a6602e8e5bb599d24f82b3245d60b99f6a.png" width="32" height="32" alt=""> | 菲歐妮·蕾法愛菈 | 角色 | 1201 |  |
+| `{{wengine:1209}}` | <img src="../assets/images/synced/3b64c33890d9bd667ef9a4694c7cd03f0a231b1a9134111fb69b68b14b0e472e.png" width="32" height="32" alt=""> | 緋月銀棺 | 音擎 | 1209 | S級／擊破 |
 | `{{wengine:1192}}` | <img src="../assets/images/synced/429ab89c5ab69ae09e2427ffbd91b32338cce2dbf95635641cc08be2a1933ae3.png" width="32" height="32" alt=""> | 「月相」-弦 | 音擎 | 1192 | B級／鋒御 |
 | `{{wengine:1191}}` | <img src="../assets/images/synced/bb150530427159d4816bec4485f2fe5a16840fdc264b4099f1eb4c3b840b9bbc.png" width="32" height="32" alt=""> | 喵運當頭 | 音擎 | 1191 | A級／鋒御 |
 | `{{wengine:1190}}` | <img src="../assets/images/synced/111a94edbaa4a3e77b623e9488ac3a3855c54d769fea343e3300b93dc0fb1e95.png" width="32" height="32" alt=""> | 血髓秘匣 | 音擎 | 1190 | A級／鋒御 |
