@@ -124,5 +124,49 @@
   "custom:duo_chain": {
     "name": "雙連攜",
     "iconOf": "action:chain"
+  },
+  "custom:physical_anomaly": {
+    "name": "物理異常狀態",
+    "iconOf": "element:physical"
+  },
+  "custom:fire_anomaly": {
+    "name": "火異常狀態",
+    "iconOf": "element:fire"
+  },
+  "custom:ice_anomaly": {
+    "name": "冰異常狀態",
+    "iconOf": "element:ice"
+  },
+  "custom:electric_anomaly": {
+    "name": "電異常狀態",
+    "iconOf": "element:electric"
+  },
+  "custom:ether_anomaly": {
+    "name": "乙太異常狀態",
+    "iconOf": "element:ether"
+  },
+  "custom:wind_anomaly": {
+    "name": "風異常狀態",
+    "iconOf": "element:wind"
+  },
+  "custom:light_anomaly": {
+    "name": "流明異常狀態",
+    "iconOf": "element:light"
+  },
+  "custom:frost_anomaly": {
+    "name": "烈霜異常狀態",
+    "iconOf": "element:frost"
+  },
+  "custom:auricink_anomaly": {
+    "name": "玄墨異常狀態",
+    "iconOf": "element:auricink"
+  },
+  "custom:honededge_anomaly": {
+    "name": "凜刃異常狀態",
+    "iconOf": "element:honededge"
+  },
+  "custom:wind_anomaly_additional": {
+    "name": "浸染",
+    "iconOf": "element:wind"
   }
 }

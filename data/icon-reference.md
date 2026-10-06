@@ -295,3 +295,14 @@
 | `{{custom:sheer_dmg}}` | <img src="../assets/images/synced/3b48202757b73b0139eed326795737bfc4a4c5c1c2d2367da9c6e7ef125e08ca.png" width="32" height="32" alt=""> | 貫穿傷害 | 自訂 |  | 同 {{profession:rupture}} 圖示 |
 | `{{custom:sharp_dmg}}` | <img src="../assets/images/synced/ef43ba2a2c697c6c8b83fa0640dffd7902855a7e473cc764c2ace372421c96a7.png" width="32" height="32" alt=""> | 毀傷 | 自訂 |  | 同 {{profession:fengyu}} 圖示 |
 | `{{custom:duo_chain}}` | <img src="../assets/images/synced/59175fc6df32baa8b91ec756290e57983aae09adac1504b7f135c68151f394a2.png" width="32" height="32" alt=""> | 雙連攜 | 自訂 |  | 同 {{action:chain}} 圖示 |
+| `{{custom:physical_anomaly}}` | <img src="../assets/images/synced/2e24ccc1fe3f6b4245df395ec256a1c156259234c7241ff5a355d56396aa5875.png" width="32" height="32" alt=""> | 物理異常狀態 | 自訂 |  | 同 {{element:physical}} 圖示 |
+| `{{custom:fire_anomaly}}` | <img src="../assets/images/synced/04ba0a2a2d65009c983bfcfa90fe1b9cdef39c8f82b9b7fd7311b3dec22873b7.png" width="32" height="32" alt=""> | 火異常狀態 | 自訂 |  | 同 {{element:fire}} 圖示 |
+| `{{custom:ice_anomaly}}` | <img src="../assets/images/synced/f7aa2b4d203d30a8c7b3e0e0bca35218b656c9638e3178c11b2cc5dc13358ac6.png" width="32" height="32" alt=""> | 冰異常狀態 | 自訂 |  | 同 {{element:ice}} 圖示 |
+| `{{custom:electric_anomaly}}` | <img src="../assets/images/synced/ba1fd03d1d42e287169816492fe7152ad12700ec1242e0e60947748ae15ad223.png" width="32" height="32" alt=""> | 電異常狀態 | 自訂 |  | 同 {{element:electric}} 圖示 |
+| `{{custom:ether_anomaly}}` | <img src="../assets/images/synced/2862fab8f1ce235e7e6fdde53cc2c35f105447a9e290433dfcd37df7501509c8.png" width="32" height="32" alt=""> | 乙太異常狀態 | 自訂 |  | 同 {{element:ether}} 圖示 |
+| `{{custom:wind_anomaly}}` | <img src="../assets/images/synced/a27aeca8b71e4a7e2bc1dafcc0641113d49e83c598497512b2b31daca032378e.png" width="32" height="32" alt=""> | 風異常狀態 | 自訂 |  | 同 {{element:wind}} 圖示 |
+| `{{custom:light_anomaly}}` | <img src="../assets/images/synced/48179ec787cdfe0103d15d6f376ba66126669c7c1812475fbbf8dbd24b3d0837.png" width="32" height="32" alt=""> | 流明異常狀態 | 自訂 |  | 同 {{element:light}} 圖示 |
+| `{{custom:frost_anomaly}}` | <img src="../assets/images/synced/93ffce87029130c6c082f50c63b44e5a13bcedd3d21a080e927821e7d798fe97.png" width="32" height="32" alt=""> | 烈霜異常狀態 | 自訂 |  | 同 {{element:frost}} 圖示 |
+| `{{custom:auricink_anomaly}}` | <img src="../assets/images/synced/af4aa1e3e305fde8f6f697fcdb93d94991d9c8f0d026e57f5b694d22809a5631.png" width="32" height="32" alt=""> | 玄墨異常狀態 | 自訂 |  | 同 {{element:auricink}} 圖示 |
+| `{{custom:honededge_anomaly}}` | <img src="../assets/images/synced/4811be82c2bdb4104083e170f99785552b3c90ca3760ef4103987642810fae97.png" width="32" height="32" alt=""> | 凜刃異常狀態 | 自訂 |  | 同 {{element:honededge}} 圖示 |
+| `{{custom:wind_anomaly_additional}}` | <img src="../assets/images/synced/a27aeca8b71e4a7e2bc1dafcc0641113d49e83c598497512b2b31daca032378e.png" width="32" height="32" alt=""> | 浸染 | 自訂 |  | 同 {{element:wind}} 圖示 |
