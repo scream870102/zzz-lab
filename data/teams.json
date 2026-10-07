@@ -10,5 +10,11 @@
     "title": "馬娘戳戳戳",
     "members": [1113, 1085, 588],
     "guide": "guides/teams/2002.md"
+  },
+  {
+    "id": 2003,
+    "title": "我的助理才沒有這麼可愛呢",
+    "members": [1185, 1186, 30],
+    "guide": "guides/teams/2003.md"
   }
 ]
