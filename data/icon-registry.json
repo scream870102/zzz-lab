@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "idNamespace": "hoyowiki",
   "locale": "zh-tw",
-  "fetchedAt": "2026-10-06T14:43:16.045Z",
+  "fetchedAt": "2026-10-08T03:47:03.603Z",
   "sources": [
     "https://act.hoyolab.com/app/zzz-game-record/index.html",
     "https://webstatic.hoyoverse.com/admin/mi18n/nap_global/m20240410hy38foxb7k/m20240410hy38foxb7k-zh-tw.json",
@@ -207,20 +207,20 @@
   ],
   "bundles": [
     {
-      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_004b00ec.js",
-      "sha256": "41a40908d18d3c0c6848b07534cdf647196182f239388eb5018d8098eceda047"
-    },
-    {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_8126b8f9.js",
       "sha256": "4de0159abf1ce1eb5dae1ed6214b53f8784a2ceb638aed27ba886eabba344b67"
     },
     {
-      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_3890b315.js",
-      "sha256": "342744a1d8e79472f1b24c2719af5ef69f8feb96171f67ca90b47624ca9bd632"
+      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_004b00ec.js",
+      "sha256": "41a40908d18d3c0c6848b07534cdf647196182f239388eb5018d8098eceda047"
     },
     {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_6a283e40.js",
       "sha256": "6f57a70da97355b375910026cb5874de7f9abea46e9fe59caadc244b0ff4defc"
+    },
+    {
+      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_3890b315.js",
+      "sha256": "342744a1d8e79472f1b24c2719af5ef69f8feb96171f67ca90b47624ca9bd632"
     },
     {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_a101b3aa.js",
@@ -231,12 +231,12 @@
       "sha256": "c71bfc6b1e397b18fc2289a2e501530dd4f4584ff4d90e029048c24462bbf316"
     },
     {
-      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_acec264b.js",
-      "sha256": "c94ffae840180892d5bf5ece0aabdb7584593ea93c97e8ab0bae7e7b77a55ea8"
-    },
-    {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_83fa6015.js",
       "sha256": "cdb82b3ac2b1b2cce6dad43b6b66a907f56319dbb3e78aaaa8fa3c9078b9695a"
+    },
+    {
+      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_df6ae83e.js",
+      "sha256": "9ec02d11ebdcc5e669a1c20e59152da2dd32411e8ad752bc6ef1278c3f8312c5"
     },
     {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_b7788091.js",
@@ -247,8 +247,8 @@
       "sha256": "ea9fe4cb0ec30e4f505d0c9cd78248334d66534a01db5624cc524ef068fa6774"
     },
     {
-      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_df6ae83e.js",
-      "sha256": "9ec02d11ebdcc5e669a1c20e59152da2dd32411e8ad752bc6ef1278c3f8312c5"
+      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_acec264b.js",
+      "sha256": "c94ffae840180892d5bf5ece0aabdb7584593ea93c97e8ab0bae7e7b77a55ea8"
     },
     {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_3b18768e.js",
@@ -263,6 +263,10 @@
       "sha256": "44b9fed5687b9717b741a9640ca5e8b98c304368283a1e861855679f626371fd"
     },
     {
+      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_c207ccef.js",
+      "sha256": "f18eb5e97885562602e5c1cf3235481e0303c1fe106a38ad8b0dce07b7140336"
+    },
+    {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_ced81d8d.js",
       "sha256": "485e35c57b0ba00e14a56ef9d9b1dd9330a6b4076be509eb4bb40fa01fda9903"
     },
@@ -271,24 +275,20 @@
       "sha256": "ddaae70363606db4f7e8ec2c208f1c5dc23e1852811cf9cd4974193eb03ee47e"
     },
     {
-      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_c207ccef.js",
-      "sha256": "f18eb5e97885562602e5c1cf3235481e0303c1fe106a38ad8b0dce07b7140336"
+      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_3b2df3bb.js",
+      "sha256": "4e5d0b3bb13de85471bf1414affd1c73fa728b23a98fe7aa1a32466a37f03dce"
     },
     {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_0ff15da2.js",
       "sha256": "7a6632550f83794a3ea760e4029419077d8ef79a9239ebba867223bdd57452fb"
     },
     {
-      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_8673ae26.js",
-      "sha256": "e59196be8cfda3825dae59c2402adfd9ac027c3b0a9d20490a804e623ac02b5f"
-    },
-    {
-      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_3b2df3bb.js",
-      "sha256": "4e5d0b3bb13de85471bf1414affd1c73fa728b23a98fe7aa1a32466a37f03dce"
-    },
-    {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
       "sha256": "3bc63f66f1976eee71d2eb298ffa9a4dedc110dd284eb7855ed81ff9d8e917ef"
+    },
+    {
+      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_8673ae26.js",
+      "sha256": "e59196be8cfda3825dae59c2402adfd9ac027c3b0a9d20490a804e623ac02b5f"
     }
   ],
   "unclassified": [
@@ -471,7 +471,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-hp-icon.59cb16ef.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "c28ac68e4439e535a602cdc482a1ace5f6f22ece172d3dee66bd419e12d5853b",
       "bytes": 2068,
       "icon": "assets/images/synced/c28ac68e4439e535a602cdc482a1ace5f6f22ece172d3dee66bd419e12d5853b.png"
@@ -482,7 +482,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-atk-icon.7e5f0cb6.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "3fc35fff1e7fe01016214472bba85c14eb660afc6c9ac29ee46e8956f437065d",
       "bytes": 1770,
       "icon": "assets/images/synced/3fc35fff1e7fe01016214472bba85c14eb660afc6c9ac29ee46e8956f437065d.png"
@@ -493,7 +493,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-def-icon.a927965c.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "fc03d6c996852fa1447e769d1f9f7c6494a6a79c14f4eeec99404307c7efcf6c",
       "bytes": 2537,
       "icon": "assets/images/synced/fc03d6c996852fa1447e769d1f9f7c6494a6a79c14f4eeec99404307c7efcf6c.png"
@@ -504,7 +504,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-impact-icon.6d9c9282.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "e6a7e836a908429b9d8f847cd8845824b67a86337255550ffdd657d18eb24806",
       "bytes": 2125,
       "icon": "assets/images/synced/e6a7e836a908429b9d8f847cd8845824b67a86337255550ffdd657d18eb24806.png"
@@ -515,7 +515,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-crit-rate-icon.810d1d8e.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "9730f89a0ead38161d6f6fa75f275cb938fe774e0cb00c74745da30b237d1946",
       "bytes": 2095,
       "icon": "assets/images/synced/9730f89a0ead38161d6f6fa75f275cb938fe774e0cb00c74745da30b237d1946.png"
@@ -526,7 +526,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-crit-dmg-icon.b896fc9e.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "2c60df146f0b66efa9a58682bd62c07d19f944ab1e9e47f5e64e8261259ee41e",
       "bytes": 1991,
       "icon": "assets/images/synced/2c60df146f0b66efa9a58682bd62c07d19f944ab1e9e47f5e64e8261259ee41e.png"
@@ -537,7 +537,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-anomaly-proficiency-icon.38adc36b.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "1bb0befea2c7da3767f3f625a86a02dc6fc0fe7440afc72e9fbcd684f10a09b4",
       "bytes": 2598,
       "icon": "assets/images/synced/1bb0befea2c7da3767f3f625a86a02dc6fc0fe7440afc72e9fbcd684f10a09b4.png"
@@ -548,7 +548,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-anomaly-mastery-icon.f4fc5970.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "a7dae4c087a19a761033d853677598ae949eb9e791e0b880f32e3602713b234f",
       "bytes": 2355,
       "icon": "assets/images/synced/a7dae4c087a19a761033d853677598ae949eb9e791e0b880f32e3602713b234f.png"
@@ -559,7 +559,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-pen-ratio-icon.90bc6385.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "39b97adf28484ba5530f6dcb9689ef628e6ebbbbd1eccfbe7061446e5bba4f2f",
       "bytes": 2117,
       "icon": "assets/images/synced/39b97adf28484ba5530f6dcb9689ef628e6ebbbbd1eccfbe7061446e5bba4f2f.png"
@@ -570,7 +570,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-pen-value-icon.7646b67f.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "f3ca375177aa4df563582f0046529ff0524293b1efaa8f232037efb87e0bbe3d",
       "bytes": 2028,
       "icon": "assets/images/synced/f3ca375177aa4df563582f0046529ff0524293b1efaa8f232037efb87e0bbe3d.png"
@@ -581,7 +581,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-energy-regen-icon.2ec55369.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "c56dfdf453f3bce2490fae416d34d5b67132012a57a43d5d9709b9692f7304fa",
       "bytes": 2146,
       "icon": "assets/images/synced/c56dfdf453f3bce2490fae416d34d5b67132012a57a43d5d9709b9692f7304fa.png"
@@ -592,7 +592,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-physical-icon.a657c07a.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "2e24ccc1fe3f6b4245df395ec256a1c156259234c7241ff5a355d56396aa5875",
       "bytes": 3678,
       "icon": "assets/images/synced/2e24ccc1fe3f6b4245df395ec256a1c156259234c7241ff5a355d56396aa5875.png"
@@ -603,7 +603,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-fire-icon.aeddecee.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "04ba0a2a2d65009c983bfcfa90fe1b9cdef39c8f82b9b7fd7311b3dec22873b7",
       "bytes": 5004,
       "icon": "assets/images/synced/04ba0a2a2d65009c983bfcfa90fe1b9cdef39c8f82b9b7fd7311b3dec22873b7.png"
@@ -614,7 +614,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-ice-icon.5c85742d.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "f7aa2b4d203d30a8c7b3e0e0bca35218b656c9638e3178c11b2cc5dc13358ac6",
       "bytes": 4154,
       "icon": "assets/images/synced/f7aa2b4d203d30a8c7b3e0e0bca35218b656c9638e3178c11b2cc5dc13358ac6.png"
@@ -625,7 +625,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-electric-icon.ad4c441f.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "ba1fd03d1d42e287169816492fe7152ad12700ec1242e0e60947748ae15ad223",
       "bytes": 4205,
       "icon": "assets/images/synced/ba1fd03d1d42e287169816492fe7152ad12700ec1242e0e60947748ae15ad223.png"
@@ -636,7 +636,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-ether-icon.9a1e42a1.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "2862fab8f1ce235e7e6fdde53cc2c35f105447a9e290433dfcd37df7501509c8",
       "bytes": 4245,
       "icon": "assets/images/synced/2862fab8f1ce235e7e6fdde53cc2c35f105447a9e290433dfcd37df7501509c8.png"
@@ -647,7 +647,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-wind-icon.c5358f7e.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "a27aeca8b71e4a7e2bc1dafcc0641113d49e83c598497512b2b31daca032378e",
       "bytes": 3355,
       "icon": "assets/images/synced/a27aeca8b71e4a7e2bc1dafcc0641113d49e83c598497512b2b31daca032378e.png"
@@ -658,7 +658,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-perforation-icon.a38cc4d9.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "78b4e7099b53dc1ef76ce42b803341507703538320e938c280ec1b0494df1dd0",
       "bytes": 735,
       "icon": "assets/images/synced/78b4e7099b53dc1ef76ce42b803341507703538320e938c280ec1b0494df1dd0.png"
@@ -669,7 +669,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-energyaccumulation-icon.00b2ae57.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "80f9e9978f8db2fd6626c0b0f5f483e0b988cd06d1a04d39709e180c2c156bc9",
       "bytes": 952,
       "icon": "assets/images/synced/80f9e9978f8db2fd6626c0b0f5f483e0b988cd06d1a04d39709e180c2c156bc9.png"
@@ -680,7 +680,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-accumulation-icon.37c5e8fe.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "fec24bc18c09d4a48a40e9f45bec32e980be54615c595bdbc7520a76006cdf68",
       "bytes": 1913,
       "icon": "assets/images/synced/fec24bc18c09d4a48a40e9f45bec32e980be54615c595bdbc7520a76006cdf68.png"
@@ -691,7 +691,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/prop-sharp-icon.704f0fa0.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "6b6a36f7f8dbbda11587cfde5da647b388db57d6971f2ca6107e784b4591af35",
       "bytes": 1841,
       "icon": "assets/images/synced/6b6a36f7f8dbbda11587cfde5da647b388db57d6971f2ca6107e784b4591af35.png"
@@ -702,7 +702,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/rarity-s.57a8823c.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_004b00ec.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "8e6151e0afee42fb01a4cb2f916014befd7c59931f21b89e0f83910e589668ce",
       "bytes": 2259,
       "icon": "assets/images/synced/8e6151e0afee42fb01a4cb2f916014befd7c59931f21b89e0f83910e589668ce.png"
@@ -713,7 +713,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/rarity-a.2e7c7c47.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_004b00ec.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "515fa6b01ce812612fd8e6f6a313888c35e65644ed51efaad984acf3c6cd82a1",
       "bytes": 2436,
       "icon": "assets/images/synced/515fa6b01ce812612fd8e6f6a313888c35e65644ed51efaad984acf3c6cd82a1.png"
@@ -724,7 +724,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/rarity-b.7e53884c.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_004b00ec.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "fd4c41566eb4ea586c415cd6668a56e1ab6934f32abec274009bf0144da4b2a3",
       "bytes": 2334,
       "icon": "assets/images/synced/fd4c41566eb4ea586c415cd6668a56e1ab6934f32abec274009bf0144da4b2a3.png"
@@ -757,7 +757,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/Icon_SpecialReady.99a14434.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "e5fc5ff77e5e185233d7f5907d20fdcc925a2c4400eaf8292ce3af9c0ecd3430",
       "bytes": 5284,
       "icon": "assets/images/synced/e5fc5ff77e5e185233d7f5907d20fdcc925a2c4400eaf8292ce3af9c0ecd3430.png"
@@ -801,7 +801,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/Icon_Ultimate.1ac20d28.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "913712bbdddc64bf305cb0e3891401ad113e2f1eb62eddc385925a1060097047",
       "bytes": 3425,
       "icon": "assets/images/synced/913712bbdddc64bf305cb0e3891401ad113e2f1eb62eddc385925a1060097047.png"
@@ -812,7 +812,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/Icon_UltimateReady.b750178d.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "3de6850c41b463c37075ebfbbaf0343257db493123570beed3c2d67c48107150",
       "bytes": 4499,
       "icon": "assets/images/synced/3de6850c41b463c37075ebfbbaf0343257db493123570beed3c2d67c48107150.png"
@@ -834,7 +834,7 @@
       "sourceUrl": "https://act.hoyolab.com/app/zzz-game-record/images/Icon_JoyStick.49d89a12.png",
       "sourcePage": "https://act.hoyolab.com/app/zzz-game-record/index.html",
       "sourceBundle": "https://act.hoyolab.com/app/zzz-game-record/pc_7ac5d7bf.js",
-      "labelSource": "scripts/sync-icons.cjs (繁中顯示名稱對照)",
+      "labelSource": "site/sync-icons.cjs (繁中顯示名稱對照)",
       "sha256": "8fa9e0da7244f42f98ae06386252ad8b1e5c81f92d494d5f734a9c5a3855ae6d",
       "bytes": 2935,
       "icon": "assets/images/synced/8fa9e0da7244f42f98ae06386252ad8b1e5c81f92d494d5f734a9c5a3855ae6d.png"
