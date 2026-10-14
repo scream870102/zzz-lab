@@ -305,4 +305,7 @@
 | `{{custom:frost_anomaly}}` | <img src="../assets/images/synced/93ffce87029130c6c082f50c63b44e5a13bcedd3d21a080e927821e7d798fe97.png" width="32" height="32" alt=""> | 烈霜異常狀態 | 自訂 |  | 同 {{element:frost}} 圖示 |
 | `{{custom:auricink_anomaly}}` | <img src="../assets/images/synced/af4aa1e3e305fde8f6f697fcdb93d94991d9c8f0d026e57f5b694d22809a5631.png" width="32" height="32" alt=""> | 玄墨異常狀態 | 自訂 |  | 同 {{element:auricink}} 圖示 |
 | `{{custom:honededge_anomaly}}` | <img src="../assets/images/synced/4811be82c2bdb4104083e170f99785552b3c90ca3760ef4103987642810fae97.png" width="32" height="32" alt=""> | 凜刃異常狀態 | 自訂 |  | 同 {{element:honededge}} 圖示 |
+| `{{custom:anomaly_state}}` | <img src="../assets/images/synced/85325ac35b2f06504ba4354a9444eef186b0488d661b0a39e4d359ca5a81c88a.png" width="32" height="32" alt=""> | 異常狀態 | 自訂 |  | 同 {{profession:anomaly}} 圖示 |
 | `{{custom:wind_anomaly_additional}}` | <img src="../assets/images/synced/a27aeca8b71e4a7e2bc1dafcc0641113d49e83c598497512b2b31daca032378e.png" width="32" height="32" alt=""> | 浸染 | 自訂 |  | 同 {{element:wind}} 圖示 |
+| `{{custom:anomaly}}` | <img src="../assets/images/manual/icons/anomaly-buildup.svg" width="32" height="32" alt=""> | 紊亂 | 自訂 |  | 本站自製 SVG |
+| `{{custom:light_anomaly_point}}` | <img src="../assets/images/synced/48179ec787cdfe0103d15d6f376ba66126669c7c1812475fbbf8dbd24b3d0837.png" width="32" height="32" alt=""> | 流明積蓄點 | 自訂 |  | 同 {{element:light}} 圖示 |

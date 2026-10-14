@@ -165,8 +165,21 @@
     "name": "凜刃異常狀態",
     "iconOf": "element:honededge"
   },
+  "custom:anomaly_state": {
+    "name": "異常狀態",
+    "iconOf": "profession:anomaly"
+  },
   "custom:wind_anomaly_additional": {
     "name": "浸染",
     "iconOf": "element:wind"
+  },
+  "custom:anomaly": {
+    "name": "紊亂",
+    "icon": "assets/images/manual/icons/anomaly-buildup.svg",
+    "note": "本站自製 SVG"
+  },
+  "custom:light_anomaly_point": {
+    "name": "流明積蓄點",
+    "iconOf": "element:light"
   }
 }

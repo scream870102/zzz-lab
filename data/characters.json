@@ -10925,6 +10925,7 @@
     "wikiId": "1112",
     "idNamespace": "hoyowiki",
     "gameId": null,
+    "guide": "guides/agents/1112.md",
     "sourceUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2026/06/30/186855736/0d0cd5b5fc60173dc78d2e4002e3d2b5_98848863733430456.png",
     "sourcePage": "https://wiki.hoyolab.com/pc/zzz/entry/1112",
     "sourceMetadata": {
@@ -10944,9 +10945,7 @@
         },
         "filter_values": {
           "agent_specialties": {
-            "values": [
-              "異常"
-            ],
+            "values": ["異常"],
             "value_types": [
               {
                 "id": "5",
@@ -10959,9 +10958,7 @@
             "key": null
           },
           "agent_stats": {
-            "values": [
-              "流明"
-            ],
+            "values": ["流明"],
             "value_types": [
               {
                 "id": "147",
@@ -10974,9 +10971,7 @@
             "key": null
           },
           "agent_attack_type": {
-            "values": [
-              "斬擊"
-            ],
+            "values": ["斬擊"],
             "value_types": [
               {
                 "id": "13",
@@ -10989,9 +10984,7 @@
             "key": null
           },
           "agent_faction": {
-            "values": [
-              "達識結社"
-            ],
+            "values": ["達識結社"],
             "value_types": [
               {
                 "id": "143",
@@ -11004,9 +10997,7 @@
             "key": null
           },
           "agent_rarity": {
-            "values": [
-              "S"
-            ],
+            "values": ["S"],
             "value_types": [
               {
                 "id": "2",
@@ -11024,9 +11015,7 @@
       "baseInfo": [
         {
           "key": "姓名",
-          "value": [
-            "<p>蕾米埃爾·丹</p>"
-          ]
+          "value": ["<p>蕾米埃爾·丹</p>"]
         },
         {
           "key": "性別",
@@ -11036,9 +11025,7 @@
         },
         {
           "key": "陣營",
-          "value": [
-            "<p>達識結社</p>"
-          ]
+          "value": ["<p>達識結社</p>"]
         },
         {
           "key": "身高",
@@ -11048,45 +11035,31 @@
         },
         {
           "key": "生日",
-          "value": [
-            "<p>3/14</p>"
-          ]
+          "value": ["<p>3/14</p>"]
         },
         {
           "key": "稱號",
-          "value": [
-            "<p>虛狩·時隙流明</p>"
-          ]
+          "value": ["<p>虛狩·時隙流明</p>"]
         },
         {
           "key": "漢語CV",
-          "value": [
-            "<p>醋醋</p>"
-          ]
+          "value": ["<p>醋醋</p>"]
         },
         {
           "key": "英語CV",
-          "value": [
-            "<p>Amber Lee Connors</p>"
-          ]
+          "value": ["<p>Amber Lee Connors</p>"]
         },
         {
           "key": "日語CV",
-          "value": [
-            "<p>大西沙織</p>"
-          ]
+          "value": ["<p>大西沙織</p>"]
         },
         {
           "key": "韓語CV",
-          "value": [
-            "<p>채림</p>"
-          ]
+          "value": ["<p>채림</p>"]
         },
         {
           "key": "實裝版本",
-          "value": [
-            "<p> 3.1版本「漫長的告別」</p>"
-          ]
+          "value": ["<p> 3.1版本「漫長的告別」</p>"]
         },
         {
           "key": "推薦音擎",
@@ -11108,9 +11081,7 @@
     "fetchedAt": "2026-10-08T03:47:03.603Z",
     "faction": "達識結社",
     "factionId": "covenant_of_dayat",
-    "recommendedWengines": [
-      1174
-    ],
+    "recommendedWengines": [1174],
     "factionWiki": "達識結社"
   },
   {
