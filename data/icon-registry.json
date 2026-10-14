@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "idNamespace": "hoyowiki",
   "locale": "zh-tw",
-  "fetchedAt": "2026-10-08T03:47:03.603Z",
+  "fetchedAt": "2026-10-14T09:40:39.392Z",
   "sources": [
     "https://act.hoyolab.com/app/zzz-game-record/index.html",
     "https://webstatic.hoyoverse.com/admin/mi18n/nap_global/m20240410hy38foxb7k/m20240410hy38foxb7k-zh-tw.json",
@@ -207,12 +207,12 @@
   ],
   "bundles": [
     {
-      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_8126b8f9.js",
-      "sha256": "4de0159abf1ce1eb5dae1ed6214b53f8784a2ceb638aed27ba886eabba344b67"
-    },
-    {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_004b00ec.js",
       "sha256": "41a40908d18d3c0c6848b07534cdf647196182f239388eb5018d8098eceda047"
+    },
+    {
+      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_8126b8f9.js",
+      "sha256": "4de0159abf1ce1eb5dae1ed6214b53f8784a2ceb638aed27ba886eabba344b67"
     },
     {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_6a283e40.js",
@@ -231,16 +231,8 @@
       "sha256": "c71bfc6b1e397b18fc2289a2e501530dd4f4584ff4d90e029048c24462bbf316"
     },
     {
-      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_83fa6015.js",
-      "sha256": "cdb82b3ac2b1b2cce6dad43b6b66a907f56319dbb3e78aaaa8fa3c9078b9695a"
-    },
-    {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_df6ae83e.js",
       "sha256": "9ec02d11ebdcc5e669a1c20e59152da2dd32411e8ad752bc6ef1278c3f8312c5"
-    },
-    {
-      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_b7788091.js",
-      "sha256": "0151204a8076100992fcb32c2766de32740dbe73d0d1307ca8b0a756ec35558a"
     },
     {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_70575195.js",
@@ -251,12 +243,20 @@
       "sha256": "c94ffae840180892d5bf5ece0aabdb7584593ea93c97e8ab0bae7e7b77a55ea8"
     },
     {
+      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_b7788091.js",
+      "sha256": "0151204a8076100992fcb32c2766de32740dbe73d0d1307ca8b0a756ec35558a"
+    },
+    {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_3b18768e.js",
       "sha256": "b56086382443cad0b33bc6a9a2c575d69b11a46ac72f33d32df4c97c644ddd21"
     },
     {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_274e2061.js",
       "sha256": "534f4092cebc648ba9ecafc72ddeec4934d9a930749167c8fab46d06d7370867"
+    },
+    {
+      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_83fa6015.js",
+      "sha256": "cdb82b3ac2b1b2cce6dad43b6b66a907f56319dbb3e78aaaa8fa3c9078b9695a"
     },
     {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_717dd3b8.js",
@@ -267,12 +267,12 @@
       "sha256": "f18eb5e97885562602e5c1cf3235481e0303c1fe106a38ad8b0dce07b7140336"
     },
     {
-      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_ced81d8d.js",
-      "sha256": "485e35c57b0ba00e14a56ef9d9b1dd9330a6b4076be509eb4bb40fa01fda9903"
-    },
-    {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_dc22c873.js",
       "sha256": "ddaae70363606db4f7e8ec2c208f1c5dc23e1852811cf9cd4974193eb03ee47e"
+    },
+    {
+      "url": "https://act.hoyolab.com/app/zzz-game-record/pc_ced81d8d.js",
+      "sha256": "485e35c57b0ba00e14a56ef9d9b1dd9330a6b4076be509eb4bb40fa01fda9903"
     },
     {
       "url": "https://act.hoyolab.com/app/zzz-game-record/pc_3b2df3bb.js",
