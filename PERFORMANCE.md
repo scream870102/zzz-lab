@@ -50,3 +50,11 @@
 依回饋，攻略 h3 改深灰底、淺字與銅橘色細邊，不再使用整塊亮橘底；保留水平圓角與陰影。高度由 50px 縮至 38px，減少內距與上下留白。隊伍卡片及所有 member-link 頭像背景統一為深灰（包括隊伍詳細頁與音擎推薦角色）。
 
 桌面／手機截圖、混合標題對齊與隊伍兩種頭像背景驗證通過；各分頁、攻略重試及零額外 Markdown 請求檢查通過。後續角色頭像／圖示標籤沿用深底，避免再加入白色底。
+
+### GitHub Pages 字體快取修正
+
+線上 fonts.css 與 Anton WOFF2 的內容與本機完全相同、均回 200，Cache-Control 為 max-age=600。截圖差異可由舊 CSS 不含 Anton 定義重現；不能直接讀取使用者瀏覽器快取，因此實際使用者快取狀態未確認。
+
+index.html 對 fonts.css 加上內容 SHA256 前 12 碼版本 4db071897999，並 preload 本機 Anton 字體。後續更動 fonts.css 時須更新此版本識別。
+
+驗收：同一瀏覽器 context 先快取舊 CSS，再載入新首頁；CDP CSS.getPlatformFontsForNode 確認 AGENTS 實際字體由 Unbounded 變為 Anton，並比對截圖符合本機粗窄版本。舊 CSS 與新版 CSS 各請求一次，Anton 僅下載一次，無 pageerror。修改尚未 commit／push。
