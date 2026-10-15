@@ -23,7 +23,7 @@
 - 完整傷害公式、變數說明、倍率表與即時計算結果。
 - 逐步乘區拆解、比較基準、預設範例與觀念練習。
 - 每個參數欄位附「填什麼／值從哪來」說明，另有常數與係數表（防禦係數 794、等級區、各屬性異常倍率等）。
-- 街頭終端風格：黑底、單一橘色重點 `#ff7a1f`、米白貼紙；大標題用 Dela Gothic One，英數用 Unbounded，背景噴漆大字用 Rubik Spray Paint（皆 OFL，放在 `assets/fonts/`）。切換模塊時有斜條轉場，聚光區與詳細頁後方有 three.js 3D 驅動盤。
+- 街頭終端風格：黑底、單一橘色重點 `#ff7a1f`、米白貼紙；大標題用 Dela Gothic One，英數用 Unbounded，背景噴漆大字用 Anton（皆 OFL，放在 `assets/fonts/`）。切換模塊時有斜條轉場，聚光區與詳細頁後方有 three.js 3D 驅動盤。
 - 快捷鍵：`Q`／`E` 切換模塊、`F` 打開聚光區的代理人、`Esc` 從詳細頁返回列表。
 - 左下角「顯示設定」可關閉實驗排版（噴漆大字、直排、裁切編號）與 3D 場景，設定只存在該裝置的瀏覽器；系統開啟「減少動態效果」時所有動畫停用。
 - ZZ 標誌 favicon 為深色圓角底，在深色與淺色分頁列都看得清楚（本機 PNG，離線可用）。
@@ -32,7 +32,7 @@
 
 ## 本機開啟
 
-網頁會用 `fetch` 讀取 `data/characters.json`，瀏覽器禁止 `file://` 頁面讀取本機檔案，所以**不能直接雙擊 `index.html`**，需在專案資料夾啟動任一靜態伺服器，例如：
+網頁會用 `fetch` 讀取 `data/site.json`，瀏覽器禁止 `file://` 頁面讀取本機檔案，所以**不能直接雙擊 `index.html`**，需在專案資料夾啟動任一靜態伺服器，例如：
 
 ```sh
 npx serve .
@@ -58,7 +58,7 @@ zzz-lab/
 ├── guides/img/         # 攻略用圖片
 ├── guides/_templates/  # 攻略範本（不會出現在網站上）
 ├── assets/vendor/      # marked v18.0.14（Markdown 解析）、three.js r128（3D 場景）與授權檔
-├── assets/fonts/       # Dela Gothic One、Unbounded、Rubik Spray Paint（woff2 切片、fonts.css、OFL.txt）
+├── assets/fonts/       # Dela Gothic One、Unbounded、Anton（woff2 切片、fonts.css、OFL.txt）
 ├── assets/images/site/icon.png     # 原始 ZZ 標誌（512×512 PNG，透明底）
 ├── assets/images/site/logo.png     # 左上角標誌（Z 字內部填米白）
 ├── assets/images/site/favicon-*.png # 分頁圖示 16／32／512 與 iOS 主畫面圖示 180（深色圓角底）
@@ -143,7 +143,7 @@ zzz-lab/
 
 ## 發布到 GitHub Pages
 
-本專案為純靜態網頁，不需自行執行建置指令或安裝依賴。
+本專案為純靜態網頁；產生好的 `data/site.json` 與 `assets/images/web/` 一併提交後，GitHub Pages 不需安裝依賴或執行建置。修改原始資料、圖片或攻略後，請先執行下方的「更新網站資源」。
 
 1. 建立 GitHub repository，例如 `zzz-lab`，將專案檔案上傳至根目錄，確保 `index.html` 不在額外的子資料夾裡，且 `assets/` 一併上傳（頭像靠相對路徑讀取）。
 2. 前往 repository 的 **Settings → Pages**。
@@ -171,3 +171,15 @@ zzz-lab/
 ## 修改方式
 
 編輯 `index.html` 即可調整網頁，角色資料改 `data/characters.json`。模塊切換與攻略渲染在 `site-ui` script（`route()`、`renderMarkdown()`）；三個總覽共用 `CATALOGS` 設定與 `renderCatalog()`，新增篩選維度只需在對應設定的 `filters` 加一個取值函式並在 HTML 放同名 fieldset。計算邏輯位於 `damage-engine` script，畫面與互動位於 `damage-ui` script；修改公式後請執行驗證，並同步更新畫面上的公式說明。
+
+## 更新網站資源
+
+修改 `data/` 的原始 JSON、`assets/images/` 原圖或 `guides/` 攻略後，在專案根目錄使用已安裝 Pillow 的 Python 執行：
+
+```sh
+python tools/build_site.py
+```
+
+若尚未安裝 Pillow，可先執行 `python -m pip install Pillow`；`python` 請替換為本機可用的 Python 執行檔。工具保留原圖與來源 JSON，產生適合網頁尺寸的 WebP 圖片，以及移除爬取中繼資料的 `data/site.json`。現有攻略文字也包含在此檔，開啟攻略不需再等待一次下載。請將產生的資料與圖片和網頁一起部署，勿直接修改 `data/site.json`。
+
+工具會驗證圖片可解碼、尺寸、比例與透明度，失敗時停止。單純修改 `index.html` 不必重跑。

@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="assets/fonts/fonts.css">
 <style>
 /* Street terminal (A4): black ground, one orange accent, cream stickers.
-   Type: Dela Gothic One for large CJK titles, Unbounded for Latin/numbers, Rubik Spray Paint for decorative street words (assets/fonts, OFL).
+   Type: Dela Gothic One for large CJK titles, Unbounded for Latin/numbers, Anton for decorative street words (assets/fonts, OFL).
    Hero areas (spotlight, detail art, damage result) sit on a dark stage; element colour only lights character art. */
 :root{
   --bg:#101010; --surface:#191919; --surface-2:#232323; --line:#323232; --fg:#f6f3ea; --mute:#a9a69e;
@@ -22,7 +22,7 @@
   --f-body:"Noto Sans TC","Source Han Sans TC","Microsoft JhengHei UI","Microsoft JhengHei","PingFang TC","Hiragino Sans GB","Segoe UI",system-ui,sans-serif;
   --f-disp:"Unbounded","Arial Black",var(--f-body);
   --f-head:"Dela Gothic One",var(--f-body);
-  --f-spray:"Rubik Spray Paint","Unbounded",var(--f-body);
+  --f-spray:"Anton","Unbounded",var(--f-body);
   --f-mono:ui-monospace,"Cascadia Mono",Consolas,monospace;
   --gutter:max(16px,env(safe-area-inset-left,0px)); --gutter-r:max(16px,env(safe-area-inset-right,0px));
   --ease:cubic-bezier(.7,0,.2,1); --out:cubic-bezier(.16,1,.3,1); --spring:cubic-bezier(.3,1.5,.5,1);
@@ -98,9 +98,9 @@ kbd{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 
 .module-head h2{margin:12px 0 8px;font:400 clamp(38px,5.2vw,64px)/1.05 var(--f-head);transform:rotate(-1deg);text-shadow:3px 3px 0 #000}
 .module-head p{margin:0;max-width:52ch;color:var(--mute);font-size:13.5px;line-height:1.75}
 .spray{display:none}
-[data-exp=on] .spray{display:block;position:absolute;left:24%;top:-30px;z-index:-1;font:400 clamp(84px,12vw,170px)/1 var(--f-spray);color:var(--acc);opacity:.11;white-space:nowrap;pointer-events:none;transform:rotate(-5deg)}
+[data-exp=on] .spray{display:block;position:absolute;left:24%;top:-30px;z-index:-1;font:400 clamp(84px,12vw,170px)/1 var(--f-spray);color:var(--acc);opacity:.14;letter-spacing:.045em;white-space:nowrap;pointer-events:none;transform:rotate(-5deg) skewX(-8deg)}
 [data-exp=on] .spray.go{animation:spray-in .9s var(--out) both}
-@keyframes spray-in{from{opacity:0;transform:rotate(-5deg) translateX(-50px) scale(1.12)}}
+@keyframes spray-in{from{opacity:0;transform:rotate(-5deg) skewX(-8deg) translateX(-50px) scale(1.12)}}
 .panel{position:relative;background:var(--surface);border:2.5px solid var(--ink);border-radius:8px;box-shadow:6px 6px 0 var(--ink)}
 .button{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:2.5px solid var(--ink);border-radius:8px;background:var(--surface-2);color:var(--fg);font-weight:900;font-size:13px;line-height:1.2;text-decoration:none;box-shadow:3px 3px 0 var(--ink);transition:transform .25s var(--spring),background .2s}
 .button:hover{transform:translate(-1px,-1px) rotate(-1.5deg)}
@@ -148,10 +148,10 @@ summary::-webkit-details-marker{display:none}
 .spot-name .ch,.d-name .ch{display:inline-block;transform-origin:50% 100%}
 .spot-full{margin:0 0 14px;font-size:13px;color:var(--stage-mute)}
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px;padding:0;list-style:none}
-.tags li{position:relative;display:inline-flex;align-items:center;gap:6px;padding:4px 12px 4px 20px;background:var(--stage-fg);color:#121212;border-radius:3px 12px 12px 3px;font-weight:900;font-size:13px;transform:rotate(var(--r,-1deg))}
+.tags li{position:relative;display:inline-flex;align-items:center;gap:8px;padding:5px 12px 5px 20px;background:var(--surface-2);color:var(--stage-fg);border:1px solid #666;border-radius:3px 12px 12px 3px;font-weight:900;font-size:13px;transform:rotate(var(--r,-1deg))}
 .tags li:nth-child(2){--r:1.2deg}.tags li:nth-child(3){--r:-1.6deg}
-.tags li:before{content:"";position:absolute;left:7px;top:50%;width:6px;height:6px;margin-top:-3px;border-radius:50%;background:var(--stage)}
-.tags img{width:20px;height:20px;object-fit:contain}
+.tags li:before{content:"";position:absolute;left:7px;top:50%;width:6px;height:6px;margin-top:-3px;border-radius:50%;background:var(--acc)}
+.tags img{width:26px;height:26px;object-fit:contain;padding:3px;background:var(--ink);border-radius:50%}
 .spot-layer.in .ghost{animation:ghost .7s var(--out) .06s both}
 .spot-layer.in .spot-art img{animation:slap .6s var(--spring) both}
 .spot-layer.in .spot-name .ch{animation:ch3d .55s var(--spring) both;animation-delay:calc(var(--c) * 55ms + .12s)}
@@ -235,12 +235,12 @@ summary::-webkit-details-marker{display:none}
 .team-card:before{content:"";position:absolute;left:50%;top:-11px;width:64px;height:20px;translate:-50% 0;background:#efe6c8cc;transform:rotate(-4deg);box-shadow:0 1px 2px #0003}
 .team-card h3{margin:0;font-size:18px;font-weight:900;line-height:1.4}
 .team-members{display:flex;flex-wrap:wrap;gap:8px}
-.team-card .team-members img{width:64px;height:64px;object-fit:cover;object-position:50% 45%;border-radius:50%;background:var(--sticker);border:2.5px solid var(--ink);box-shadow:3px 3px 0 var(--ink);transition:transform .35s var(--spring)}
+.team-card .team-members img{width:64px;height:64px;object-fit:cover;object-position:50% 45%;border-radius:50%;background:var(--surface-2);border:2.5px solid var(--ink);box-shadow:3px 3px 0 var(--ink);transition:transform .35s var(--spring)}
 .team-card:hover .team-members img:nth-child(1){transform:rotate(-8deg) translateY(-4px)}
 .team-card:hover .team-members img:nth-child(2){transform:translateY(-8px) scale(1.06)}
 .team-card:hover .team-members img:nth-child(3){transform:rotate(8deg) translateY(-4px)}
 .member-link{display:grid;justify-items:center;gap:6px;color:var(--fg);text-decoration:none;font-size:13px;font-weight:900}
-.member-link img{width:84px;height:84px;object-fit:cover;object-position:50% 45%;border-radius:50%;background:var(--sticker);border:2.5px solid var(--ink);box-shadow:4px 4px 0 var(--ink);transition:transform .35s var(--spring)}
+.member-link img{width:84px;height:84px;object-fit:cover;object-position:50% 45%;border-radius:50%;background:var(--surface-2);border:2.5px solid var(--ink);box-shadow:4px 4px 0 var(--ink);transition:transform .35s var(--spring)}
 .member-link:hover img{transform:scale(1.08) rotate(-6deg)}
 .member-link:hover span{color:var(--acc)}
 
@@ -296,7 +296,7 @@ summary::-webkit-details-marker{display:none}
 .guide-body{font-size:15px;line-height:1.95;font-weight:500;color:var(--fg)}
 .guide-body>p,.guide-section>*:not(summary){margin:0 0 14px}
 .guide-body img{max-width:100%;height:auto;border-radius:8px;border:2.5px solid var(--ink)}
-.guide-body h3{display:table;margin:22px 0 10px;padding:1px 10px;background:var(--acc);color:var(--acc-ink);font-size:15px;font-weight:900;transform:rotate(-1deg)}
+.guide-body h3{display:flex;align-items:center;flex-wrap:wrap;gap:8px;width:fit-content;max-width:100%;margin:18px 0 8px;padding:4px 10px;border:1px solid #484848;border-left:3px solid #c48756;border-radius:8px;background:var(--surface-2);color:var(--fg);font-size:16px;font-weight:900;line-height:1.4;box-shadow:3px 3px 0 var(--ink)}
 .guide-body h4{margin:18px 0 8px;font-size:15px;font-weight:900;color:var(--acc)}
 .guide-body a{color:var(--acc)}
 .guide-body code{font-family:var(--f-mono);background:#0b0b0b;border:1px solid var(--line);padding:1px 6px;border-radius:4px;font-size:.9em;color:var(--acc)}
@@ -306,8 +306,7 @@ summary::-webkit-details-marker{display:none}
 .guide-body blockquote{margin:0 0 14px;padding:10px 16px;border-left:5px solid var(--acc);background:#0b0b0b;border-radius:0 8px 8px 0;color:var(--mute)}
 .guide-body ul{padding-left:22px}
 .guide-body li::marker{color:var(--acc)}
-.guide-section{position:relative;margin-bottom:20px;padding:16px 20px 6px;background:var(--surface);border:2.5px solid var(--ink);border-radius:6px;box-shadow:5px 5px 0 var(--ink);transform:rotate(var(--r,-.4deg))}
-.guide-section:nth-child(even){--r:.4deg}
+.guide-section{position:relative;margin-bottom:20px;padding:16px 20px 6px;background:var(--surface);border:2.5px solid var(--ink);border-radius:6px;box-shadow:5px 5px 0 var(--ink)}
 .guide-section>summary{display:flex;align-items:center;gap:10px;padding:2px 0 10px}
 .guide-section>summary:before{content:"";flex:none;width:22px;height:8px;background:var(--acc);border:2px solid var(--ink);transform:skewX(-20deg)}
 .guide-section>summary h2{display:inline;margin:0;font-size:19px;font-weight:900;line-height:1.35}
@@ -320,12 +319,14 @@ summary::-webkit-details-marker{display:none}
 .video-embed iframe{display:block;width:100%;height:100%;border:0}
 .agent-chip{display:inline-flex;align-items:center;gap:6px;padding:2px 10px 2px 2px;margin:0 2px;vertical-align:middle;border:2px solid var(--ink);border-radius:999px;background:var(--surface-2);color:var(--fg)!important;font-size:.9em;font-weight:900;line-height:1.6;text-decoration:none;box-shadow:2px 2px 0 var(--ink);transition:transform .3s var(--spring),background .2s}
 .agent-chip img{width:26px;height:26px;object-fit:contain}
-.agent-chip[data-icon-key^="agent:"] img{border-radius:50%;object-fit:cover;object-position:50% 45%;background:var(--sticker);border:1.5px solid var(--ink);transition:transform .35s var(--spring)}
+.agent-chip[data-icon-key^="agent:"] img{border-radius:50%;object-fit:cover;object-position:50% 45%;background:var(--surface-2);border:1.5px solid var(--ink);transition:transform .35s var(--spring)}
 a.agent-chip:hover{background:var(--acc);color:var(--acc-ink)!important;transform:rotate(-2deg)}
 a.agent-chip:hover img{transform:scale(1.15) rotate(-8deg)}
 .agent-chip.text-only,.agent-chip.missing{padding-left:10px}
 .agent-chip.missing{color:var(--danger)!important;border-style:dashed}
 .icon-chip.alias{border-style:dashed;font-style:italic}
+.guide-body h3 .agent-chip{gap:7px;padding:0;margin:0;border:0;border-radius:0;background:transparent;color:var(--fg)!important;font-size:inherit;line-height:inherit;box-shadow:none}
+.guide-body h3 .agent-chip img{width:28px;height:28px;padding:3px;border:0;border-radius:50%;background:var(--ink)}
 .item-body .item-effect{white-space:pre-line}
 .item-body .item-condition{color:var(--mute);font-size:14px}
 .item-source{color:var(--mute);font-size:12px}
@@ -899,8 +900,10 @@ let CHARACTERS=[],TEAMS=[],AVATARS=[],ICON_ENTRIES={},WENGINES=[],DISCS=[];
 const PAGES={agents:'agents',agent:'agents',wengines:'wengines',wengine:'wengines',discs:'discs',disc:'discs',teams:'teams',team:'teams',calc:'calc'};
 // Detail route -> [module, article id].
 const DETAIL_PAGES={agent:['agents','agent-page'],wengine:['wengines','wengine-page'],disc:['discs','disc-page'],team:['teams','team-page']};
-const getJson=url=>fetch(url,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(url+' '+r.status);return r.json();});
-const dataReady=Promise.all([getJson('data/characters.json'),getJson('data/teams.json'),getJson('data/icon-registry.json').catch(error=>{console.warn('Icon registry unavailable:',error);return {entries:{}};}),getJson('data/wengines.json'),getJson('data/discs.json'),getJson('data/custom-icons.json').catch(error=>{console.warn('Custom icons unavailable:',error);return {};})]).then(([characters,teams,registry,wengines,discs,custom])=>{
+const getJson=url=>fetch(url).then(r=>{if(!r.ok)throw new Error(url+' '+r.status);return r.json();});
+const guideCache=new Map();
+const dataReady=getJson('data/site.json').then(({characters,teams,registry,wengines,discs,custom,guides})=>{
+  for(const [path,md] of Object.entries(guides))guideCache.set(path,Promise.resolve(md));
   // Hand-made custom:* icons sit beside the crawled registry; official keys win on any clash.
   CHARACTERS=characters;TEAMS=teams;ICON_ENTRIES={...custom,...registry.entries};WENGINES=wengines;DISCS=discs;
   // iconOf borrows another entry's image, so one official icon can carry several meanings (閃避 → 閃避反擊、衝刺攻擊…).
@@ -1176,9 +1179,8 @@ function renderTeamPage(box,t,token){
   fillGuide(body,t.guide,token);
 }
 
-const guideCache=new Map();
 function loadGuide(path){
-  if(!guideCache.has(path))guideCache.set(path,fetch(path,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.text();}).catch(e=>{guideCache.delete(path);throw e;}));
+  if(!guideCache.has(path))guideCache.set(path,fetch(path).then(r=>{if(!r.ok)throw new Error(r.status);return r.text();}).catch(e=>{guideCache.delete(path);throw e;}));
   return guideCache.get(path);
 }
 function fillGuide(body,path,token){

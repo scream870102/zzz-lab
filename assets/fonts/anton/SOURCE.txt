@@ -1,0 +1,5 @@
+Anton Latin, normal 400
+Official CSS: https://fonts.googleapis.com/css2?family=Anton&display=swap
+Font: https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm3Kz-C8.woff2
+License: https://raw.githubusercontent.com/google/fonts/main/ofl/anton/OFL.txt
+Retrieved: 2026-10-16
