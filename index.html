@@ -82,6 +82,8 @@ kbd{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 
 .tabs a:hover{transform:rotate(0) translateY(-2px)}
 .tabs a[aria-current=page]{background:var(--acc);color:var(--acc-ink);transform:rotate(calc(var(--r) * -2)) scale(1.08);box-shadow:4px 4px 0 #000}
 .clock{flex:none;font:800 13px/1 var(--f-disp);color:#a9a69e}
+.yt{flex:none;display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border:2px solid var(--acc);border-radius:6px;color:var(--acc);text-decoration:none;font:800 12px/1.3 var(--f-disp);letter-spacing:.04em;transform:rotate(1.5deg);transition:transform .35s var(--spring),background .2s,color .2s}
+.yt:hover{background:var(--acc);color:var(--acc-ink);transform:rotate(0) translateY(-2px)}
 .hazard{height:26px;overflow:hidden;background:repeating-linear-gradient(-45deg,var(--acc) 0 16px,var(--ink) 16px 32px)}
 .hazard p{margin:0;display:flex;width:max-content;height:100%;align-items:center;animation:tape 30s linear infinite}
 .hazard span{margin:0 9px;padding:0 10px;background:var(--ink);color:var(--acc);font:800 11px/20px var(--f-disp);white-space:nowrap}
@@ -563,6 +565,8 @@ body:not([data-view=calc]) .mobile-dock{display:none!important}
 }
 @media (max-width:760px){
   .hud-in{flex-wrap:wrap;gap:10px}
+  .yt{margin-left:auto}
+  .tabs{order:1}
   .tabs{margin-left:0;width:100%;gap:5px}
   .tabs kbd{display:none}
   .tabs a{padding:5px 10px;font-size:13px}
@@ -606,6 +610,10 @@ body:not([data-view=calc]) .mobile-dock{display:none!important}
   body[data-view=calc] .tune{bottom:calc(76px + env(safe-area-inset-bottom,0px))}
   .bg-word{font-size:90px}
 }
+@media (max-width:360px){
+  .yt{padding:5px 7px}
+  .yt span{display:none}
+}
 @media (prefers-reduced-motion:reduce){
   *,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 }
@@ -621,7 +629,7 @@ body:not([data-view=calc]) .mobile-dock{display:none!important}
 </head>
 <body>
 <div class="bg" aria-hidden="true"><div class="bg-word">ZENLESS ZONE ZERO ★ NEW ERIDU ★ ZENLESS ZONE ZERO ★ NEW ERIDU ★ </div></div>
-<header class="hud"><div class="hud-in"><a class="brand" href="#/agents"><img class="mark" src="assets/images/site/logo.png" alt="" width="40" height="40"><span><b>傷害乘區實驗室</b><small>ZENLESS ZONE ZERO</small></span></a><nav class="tabs module-tabs" aria-label="切換模塊"><kbd aria-hidden="true">Q</kbd><a href="#/agents" data-module-link="agents">代理人</a><a href="#/wengines" data-module-link="wengines">音擎</a><a href="#/discs" data-module-link="discs">驅動盤</a><a href="#/teams" data-module-link="teams">隊伍</a><a href="#/calc" data-module-link="calc">傷害計算</a><kbd aria-hidden="true">E</kbd></nav><span class="clock" id="clock" aria-hidden="true"></span></div><div class="hazard" aria-hidden="true"><p id="tape"></p></div></header>
+<header class="hud"><div class="hud-in"><a class="brand" href="#/agents"><img class="mark" src="assets/images/site/logo.png" alt="" width="40" height="40"><span><b>傷害乘區實驗室</b><small>ZENLESS ZONE ZERO</small></span></a><nav class="tabs module-tabs" aria-label="切換模塊"><kbd aria-hidden="true">Q</kbd><a href="#/agents" data-module-link="agents">代理人</a><a href="#/wengines" data-module-link="wengines">音擎</a><a href="#/discs" data-module-link="discs">驅動盤</a><a href="#/teams" data-module-link="teams">隊伍</a><a href="#/calc" data-module-link="calc">傷害計算</a><kbd aria-hidden="true">E</kbd></nav><a class="yt" href="https://www.youtube.com/@zzzlab-y7k/shorts" target="_blank" rel="noopener noreferrer" aria-label="YouTube 頻道（新分頁開啟）"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="5" fill="currentColor"/><path d="M10 8.5v7l6-3.5z" fill="var(--ink)"/></svg><span>YouTube</span></a><span class="clock" id="clock" aria-hidden="true"></span></div><div class="hazard" aria-hidden="true"><p id="tape"></p></div></header>
 <div class="shell">
   <section class="module" id="module-agents" data-module="agents" hidden>
     <div id="agents-list" class="select">
@@ -765,7 +773,7 @@ body:not([data-view=calc]) .mobile-dock{display:none!important}
     <p>「完整公式」指列出所引文章九種傷害的通用乘區，不是全角色技能模擬。基底限定一名積蓄者或你已算好的有效快照；不自動混合多人積蓄、不包含異化基底、極性紊亂額外精通項、技能專屬附加傷害、動態 Buff 時序或實戰 DPS。其他屬性可自訂倍率，但需自行確認觸發條件。結算結果不包含之前已跳出的傷害或新異常另行造成的傷害。</p>
     <p>核對日期：2026-09-18。巴哈直接擷取受限，已使用搜尋索引中的公式核對；特殊公式依巴哈玩家實測整理，不宣稱官方驗證。原始來源：<a href="https://forum.gamer.com.tw/Co.php?bsn=74860&amp;sn=36497" target="_blank" rel="noopener noreferrer">5F 異放與快照進階觀念</a>。多人積蓄資料存在模型差異，因此不提供自動混合積蓄。數值保留浮點計算，顯示時四捨五入；遊戲內結果仍需實測。</p>
   </div></details>
-  <footer class="footer"><span>ZENLESS ZONE ZERO / DAMAGE LAB<br>從一個數字，理解一整條公式。</span><span>教學用非官方工具 · 不連網、不上傳數值<br>重新開啟頁面會回到預設值。</span></footer>
+  <footer class="footer"><span>ZENLESS ZONE ZERO / DAMAGE LAB<br>從一個數字，理解一整條公式。</span><span>教學用非官方工具 · 不連網、不上傳數值<br>重新開啟頁面會回到預設值。</span><span>影片教學與實戰<br><a href="https://www.youtube.com/@zzzlab-y7k/shorts" target="_blank" rel="noopener noreferrer">YouTube @zzzlab-y7k ↗</a></span></footer>
   </div>
 </div>
 <aside class="mobile-dock" aria-label="即時傷害摘要"><div><span id="mobile-heading">平均期望傷害</span><output id="mobile-damage">—</output></div><nav aria-label="手機快捷導覽"><a href="#parameters">調數值</a><a href="#result">看乘區 ↑</a></nav></aside>

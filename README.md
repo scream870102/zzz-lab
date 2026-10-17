@@ -26,7 +26,8 @@
 - 街頭終端風格：黑底、單一橘色重點 `#ff7a1f`、米白貼紙；大標題用 Dela Gothic One，英數用 Unbounded，背景噴漆大字用 Anton（皆 OFL，放在 `assets/fonts/`）。切換模塊時有斜條轉場，聚光區與詳細頁後方有 three.js 3D 驅動盤。
 - 快捷鍵：`Q`／`E` 切換模塊、`F` 打開聚光區的代理人、`Esc` 從詳細頁返回列表。
 - 左下角「顯示設定」可關閉實驗排版（噴漆大字、直排、裁切編號）與 3D 場景，設定只存在該裝置的瀏覽器；系統開啟「減少動態效果」時所有動畫停用。
-- ZZ 標誌 favicon 為深色圓角底，在深色與淺色分頁列都看得清楚（本機 PNG，離線可用）。
+- 原創「×」標誌（乘區＝乘法；黑色字形、厚橘底座、警示斜紋），favicon 為深色圓角底，在深色與淺色分頁列都看得清楚（本機 PNG，離線可用）；16px 版拿掉斜紋與反光只留輪廓。
+- 頂部選單右側與傷害計算頁頁尾連到 YouTube 頻道 [@zzzlab-y7k](https://www.youtube.com/@zzzlab-y7k/shorts)（新分頁開啟）。
 - 傷害計算頁右上角角色頭像每 10 秒隨機替換，點擊可提早換下一張；外框上貼版本標籤與角色名稱標籤。共 108 張 1000×1000 原圖，涵蓋 1.0–3.2 共 20 個版本，依版本分資料夾放在 `assets/images/manual/avatars/<版本>/`，未經壓縮；角色名稱與版本讀自角色表 `data/characters.json`。
 - 支援桌面與手機；HTML、CSS、JavaScript 集中於 `index.html`，角色表與頭像為獨立檔案，不連外部網域。
 
@@ -42,7 +43,7 @@ python -m http.server 8000
 
 再以瀏覽器開啟終端機顯示的網址（例如 http://localhost:8000）。GitHub Pages 本身就是伺服器，不受影響。
 
-favicon 用 `assets/images/site/favicon-*.png`，左上角標誌用 `assets/images/site/logo.png`，兩者都由原始標誌 `icon.png` 產生；頭像放在 `assets/images/manual/avatars/`，都以相對路徑引用。除了攻略內嵌入的 YouTube／B 站影片，全站不連外部網域；Markdown 解析器 marked 與 3D 程式庫 three.js r128 都放在 repo 內（`assets/vendor/`，MIT 授權），字型放在 `assets/fonts/`（OFL 授權，依 Unicode 範圍切片，瀏覽器只下載用到的部分）。頭像版權屬 miHoYo／HoYoverse，此處為個人非商業用途。
+favicon 用 `assets/images/site/favicon-*.png`，左上角標誌用 `assets/images/site/logo.png`，兩者都由向量原稿 `icon.svg` 產生；頭像放在 `assets/images/manual/avatars/`，都以相對路徑引用。除了攻略內嵌入的 YouTube／B 站影片，全站不連外部網域；Markdown 解析器 marked 與 3D 程式庫 three.js r128 都放在 repo 內（`assets/vendor/`，MIT 授權），字型放在 `assets/fonts/`（OFL 授權，依 Unicode 範圍切片，瀏覽器只下載用到的部分）。頭像版權屬 miHoYo／HoYoverse，此處為個人非商業用途。
 
 ## 檔案結構
 
@@ -59,8 +60,9 @@ zzz-lab/
 ├── guides/_templates/  # 攻略範本（不會出現在網站上）
 ├── assets/vendor/      # marked v18.0.14（Markdown 解析）、three.js r128（3D 場景）與授權檔
 ├── assets/fonts/       # Dela Gothic One、Unbounded、Anton（woff2 切片、fonts.css、OFL.txt）
-├── assets/images/site/icon.png     # 原始 ZZ 標誌（512×512 PNG，透明底）
-├── assets/images/site/logo.png     # 左上角標誌（Z 字內部填米白）
+├── assets/images/site/icon.svg     # × 標誌向量原稿（512×512 viewBox）
+├── assets/images/site/icon.png     # × 標誌點陣版（512×512 PNG，透明底）
+├── assets/images/site/logo.png     # 左上角與開機畫面標誌（緊貼裁切，透明底）
 ├── assets/images/site/favicon-*.png # 分頁圖示 16／32／512 與 iOS 主畫面圖示 180（深色圓角底）
 ├── assets/images/manual/avatars/     # 手動 Q 版頭像，依版本分資料夾（108 張原圖，約 29 MB）
 ├── assets/images/synced/            # 爬蟲下載的完整肖像與共用圖示
